@@ -180,7 +180,7 @@ export default function App() {
     {pendingDelete && (
     <div className="fixed inset-0 z-50 grid place-items-center bg-black/30 px-4">
       <div className="w-full max-w-sm rounded-2xl bg-white p-6 shadow-xl">
-        <h3 className="text-lg font-bold text-[#25362f]">¿Estas seguro de eliminar esto xd?</h3>
+        <h3 className="text-lg font-bold text-[#25362f]">¿Ecambio de nuevo?</h3>
         <p className="mt-2 text-sm text-[#77857e]">Esta acción no se puede leledeshacer.</p>
         <div className="mt-6 flex justify-end gap-2">
           <button type="button" onClick={() => setPendingDelete(null)} className="rounded-xl px-4 py-2.5 text-sm font-semibold text-[#526159] hover:bg-[#f3f6f4]">Cancelar</button>
